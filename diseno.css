@@ -1,0 +1,320 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(253, 253, 253);
+	font-family: 'Raleway', sans-serif;
+	font-size: 11pt;
+	font-weight: 400;
+	color: rgb(0, 0, 0);
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 190%;
+}
+
+a {
+	color: #171717;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+	.image
+	{
+		display: inline-block;
+	}
+	
+		.image img
+		{
+			display: block;
+			width: 100%;
+		}
+
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+		.image-centered img
+		{
+			margin: 0 auto;
+			width: auto;
+		}
+
+hr {
+	display: none;
+}
+
+	ul.style1
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style1 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	ul.style1 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+	.title
+	{
+		margin-bottom: 2em;
+		text-transform: uppercase;
+	}
+
+	.title h2
+	{
+		font-weight: 400;
+		font-size: 2em;
+		color: rgba(173, 0, 66, 0.856);
+	}
+	
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: rgba(173, 0, 66, 0.856);
+	}
+
+#wrapper {
+	background: #eeeeee;
+}
+
+#footer-wrapper
+{
+	background: #ffffff;
+}
+
+.container {
+	width: 1200px;
+	margin:  auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+#header-wrapper
+{
+	
+	background-size: 100%;
+	padding: 0em 0em 0em 0em;
+	background: rgb(153, 4, 61);
+}
+
+	#header 
+	{
+		position: relative;
+		text-align: center;
+	}
+
+	#logo 
+	{
+		width: 500px;
+		height: 90px;
+		margin: 0 auto;
+		padding: 1em 0em;
+		text-transform: uppercase;
+	}
+	
+	#logo h1
+	{
+		letter-spacing: 0.10em;
+		font-size: 3em;
+		color: rgb(255, 255, 255);
+	}
+	
+	#logo p 
+	{
+		letter-spacing: 0.10em;
+		
+	}
+	
+	#logo a 
+	{
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+	}
+
+	#banner 
+	{
+		
+		height: 60px;
+		background: gray;
+		background-size: cover;
+	}
+
+#page
+{
+	position: relative;
+	overflow: hidden;
+	padding: 4em 0em 5em 0em;
+}
+
+#content
+{
+	float: left;
+	width: 790px;
+}
+
+	#sidebar
+	{
+		float: right;
+		width: 400px;
+	}
+	
+	#sidebar .title h2
+	{
+		font-size: 1.6em;
+	}
+	
+	#sidebar .box1
+	{
+		margin-bottom: 2em;
+	}
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		text-align: center;
+		color: rgb(255, 255, 255);
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: #c0bebe;
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(192,192,192);
+	}
+	#portfolio-wrapper
+	{
+		background: rgba(0,0,0,.04);
+		padding: 6em 0em;
+		color: rgba(255,255,255,.7);
+	}
+	
+	#portfolio
+	{
+		overflow: hidden;
+	}
+	
+	#portfolio .title h2
+	{
+		font-size: 1.2em;
+		color: rgb(0, 0, 0);
+	}
+
+	#portfolio .byline
+	{
+		font-size: 1em;
+		color: #EEA7C1;
+	}
+	#footer-wrapper
+	{
+		overflow: hidden;
+		padding: 7em 0em;
+		background: #1E1B1A;
+	}
+
+	#footer
+	{
+		color: #ADADAD;
+	}
+	
+	#footer .title h2
+	{
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #FFF;
+	}
+
+	#footer .title
+	{
+		border-color: #2D2926 !important;
+	}
+	
+	#footer .style1 li
+	{
+		border-color: #2D2926 !important;
+	}
+	
+	#footer .style1 a
+	{
+		font-size:1em;
+		color: #B1B1B1;
+	}
+	
+	#box1
+	{
+		float: left;
+		width: 354px;
+		margin-right: 24px;
+		padding-right: 30px;
+	}
+	
+	#box2
+	{
+		float: left;
+		width: 214px;
+		margin-left: 14px;
+		padding-right: 1px;
+	}
+	
+	#box3
+	{
+		float: right;
+		width: 344px;
+		padding-left: 40px;
+	}
+
+
